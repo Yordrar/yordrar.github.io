@@ -16,9 +16,13 @@
 
  -->
 <section>
-    <div class="uk-container uk-margin-xlarge-top uk-margin-xlarge-bottom">
+    <div class="uk-container uk-margin-large-top uk-margin-large-bottom">
 
-        <h1 class="uk-heading-large">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+        <h1 class="uk-heading-medium">{{ .Site.Params.author | safeHTML }}</h1>
+        {{ with .Site.Data.homepage.about }}
+        <p class="uk-text-lead">{{.content | markdownify}}</p>
+        {{end}}
+        <h2 class="">{{ .Site.Data.homepage.banner.title | safeHTML }}</h2>
     </div>
 
 
@@ -33,7 +37,7 @@
 
 
 -->
-<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
+<div class="uk-text-center uk-margin-large-bottom uk-margin-large-top">
     <ul id="social-media" class="icons">
         {{ range .Site.Languages -}}
         {{ if ne .LanguageName $.Site.Language.LanguageName }}
@@ -42,31 +46,31 @@
         {{ end }}
         {{ if .Site.Data.homepage.social.github }}
         <li><a href="https://github.com/{{ .Site.Data.homepage.social.github }}"> <img
-                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
+                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a>Github</li>
         {{ end }}
         {{ if .Site.Data.homepage.social.linkedin }}
         <li><a href="https://www.linkedin.com/in/{{ .Site.Data.homepage.social.linkedin }}">
-            <img class="contain" src="https://cdn.svgporn.com/logos/linkedin.svg" alt="LinkedIn" loading="lazy"> </a></li>
+            <img class="contain" src="https://cdn.svgporn.com/logos/linkedin.svg" alt="LinkedIn" loading="lazy"> </a>LinkedIn</li>
         {{ end }}
         {{ if .Site.Data.homepage.social.twitter }}
         <li><a href="https://twitter.com/{{ .Site.Data.homepage.social.twitter }}" > <img
-                    class="contain" src="https://cdn.svgporn.com/logos/twitter.svg" alt="Twitter" loading="lazy"></a></li>
+                    class="contain" src="https://cdn.svgporn.com/logos/twitter.svg" alt="Twitter" loading="lazy"></a>Twitter</li>
         {{ end }}
         {{ if .Site.Data.homepage.social.gitlab }}
         <li><a href="https://gitlab.com/{{ .Site.Data.homepage.social.gitlab }}"> <img
-                    class="contain" src="https://cdn.svgporn.com/logos/gitlab.svg" alt="GitLab" loading="lazy"></a></li>
+                    class="contain" src="https://cdn.svgporn.com/logos/gitlab.svg" alt="GitLab" loading="lazy"></a>Gitlab</li>
         {{ end }}
         {{ if .Site.Data.homepage.social.facebook }}
         <li><a href="https://www.facebook.com/{{ .Site.Data.homepage.social.facebook }}"> <img
-                    class="contain" src="https://cdn.svgporn.com/logos/facebook.svg" alt="Facebook" loading="lazy"></a></li>
+                    class="contain" src="https://cdn.svgporn.com/logos/facebook.svg" alt="Facebook" loading="lazy"></a>Facebook</li>
         {{ end }}
         {{ if .Site.Data.homepage.social.instagram }}
         <li><a href="https://instagram.com/{{ .Site.Data.homepage.social.instagram }}"> <img
-                    class="contain" src="https://cdn.svgporn.com/logos/instagram-icon.svg" alt="Instagram" loading="lazy"></a></li>
+                    class="contain" src="https://cdn.svgporn.com/logos/instagram-icon.svg" alt="Instagram" loading="lazy"></a>Instagram</li>
         {{ end }}
         {{ if .Site.Data.homepage.social.gmail }}
         <li><a href="mailto:{{ .Site.Data.homepage.social.gmail }}@gmail.com" > <img
-                    class="contain" src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Gmail" loading="lazy"></a></li>
+                    class="contain" src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Gmail" loading="lazy"></a>Gmail</li>
         {{ end }}
     </ul>
 
@@ -84,7 +88,7 @@
 -->
 {{ if .Site.Data.homepage.about.enable }}
 <!-- about -->
-
+<!--
 <section class="uk-margin-large-top">
     <div class="uk-container">
         <div class="uk-text-center">
@@ -98,6 +102,7 @@
     </div>
 
 </section>
+-->
 
 
 <!-- /about -->
