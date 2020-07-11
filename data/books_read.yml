@@ -1,0 +1,66 @@
+books_read:
+  tags:
+    - label: C
+      value: c
+    - label: C++
+      value: cplusplus
+    - label: Computation
+      value: computation
+    - label: Game Engines
+      value: engines
+    - label: Operating Systems
+      value: os
+    - label: Programming languages
+      value: languages
+    - label: Software
+      value: software
+  
+  item:
+    - title: The C++ Programming Language
+      edition: 4th
+      author: Bjarne Stroustrup
+      image: images/books_read/cplusplus_programming_language.jpg
+      tags: ["cplusplus", "languages"]
+      description: asdasd
+    - title: The C Programming Language
+      edition: 2nd
+      author: Brian W. Kernighan, Dennis M. Ritchie
+      image: images/books_read/c_programming_language.jpg
+      tags: ["c", "languages"]
+      description: asdasd
+    - title: Design Patterns Elements of Reusable Object Oriented Software
+      edition: 0
+      author: Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+      image: images/books_read/design_patterns.jpg
+      tags: ["software"]
+      description: asdasd
+    - title: Modern Operating Systems
+      edition: 4th
+      author: Andrew S. Tanenbaum
+      image: images/books_read/modern_operating_systems.jpg
+      tags: ["os"]
+      description: asdasd
+    - title: The Annotated Turing
+      edition: 0
+      author: Charles Petzold
+      image: images/books_read/annotated_turing.jpg
+      tags: ["computation"]
+      description: asdasd
+    - title: Game Engine Black Book - Wolfenstein 3D
+      edition: 2nd
+      author: Fabien Sanglard
+      image: images/books_read/gebb_wolfenstein.png
+      tags: ["engines"]
+      description: asdasd
+    - title: Game Engine Black Book - Doom
+      edition: 1st
+      author: Fabien Sanglard
+      image: images/books_read/gebb_doom.png
+      tags: ["engines"]
+      description: asdasd
+    - title: The Little Book About OS Development
+      edition: 0
+      author: Erik Helin, Adam Renberg
+      image: images/books_read/little_book_os.png
+      tags: ["os"]
+      description: asdasd

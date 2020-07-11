@@ -1,0 +1,110 @@
+banner:
+  title: Welcome to my personal webpage
+
+social:
+  twitter: yordrar
+  linkedin: ja-hernandezc
+  github: yordrar
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: juanantoniohernandezcanovas
+
+about:
+  enable: true
+  content: Graphics programmer and computer science graduate
+  button:
+    btnText: about me
+    URL: "/about"
+
+skill:
+  enable: true
+  item:
+    - title: C++
+      logo: images/skills/cplusplus.png
+      description: | 
+        I mainly know C++11, although I'm learning newer versions of the language (C++14 and above).
+        
+        I've read the C++ creator's book (The C++ Programming Language, 4th Ed. by Bjarne Stroustrup) to learn the design decisions behind the language and its features.
+        I've applied this knowledge to the project I made for my bachelor's thesis, which is a ray tracing renderer. You can find it in my [portfolio](/portfolio).
+        
+        I've also read the Gang of Four book (Design Patterns, Elements of Reusable Object-Oriented Software) and thus I know how to imlpement common software engineering patterns in this language.
+
+        Among other features, I know:
+          * The STL library and containers
+          * Generics
+          * Template metaprogramming
+          * Threads and futures
+          * Lambda functions
+    - title: C#
+      logo: images/skills/csharp.png
+      description: | 
+        I have used this language mainly with Unity.
+        Apart from using it at university in a project I also used it in my internship as a game developer as we used Unity to develop games.
+
+        My main source of knowledge has been the great documentation available at [Microsoft's site](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/).
+
+        I know advanced features such as:
+          * Properties
+          * Events
+          * Delegate methods
+          * Coroutines
+          * Attributes
+          * Lambda expressions
+          * Generics
+          * Linq
+    - title: Python
+      logo: images/skills/python.png
+      description: | 
+        I use this language mainly for scripting, as it is very easy and quick to write small and useful utilities.
+
+        I learned it mainly from reading the [documentation](https://docs.python.org/3/) of the language.
+
+        I try to keep up with the latest featuresm such as:
+          * Asyncronous programming with coroutines
+          * Context managers
+          * Decorators
+          * Metaclasses
+          * Generators
+          * Assignment expressions
+    - title: DirectX 11
+      logo: images/skills/directx.png
+      description: Details coming soon
+    - title: Unity
+      logo: images/skills/unity.png
+      description: Details coming soon
+    - title: Qt 5
+      logo: images/skills/qt.png
+      description: Details coming soon
+    - title: Git
+      logo: images/skills/git.png
+      description: Details coming soon
+
+education:
+  enable: true
+  item:
+    - title: Bachelor's degree in Computer Science
+      year: 2016 - 2020
+      academy: University of Murcia
+      image: images/education/umu.png
+    - title: First Certificate in English (FCE)
+      year: 2015
+      academy: Cambridge ESOL Examinations
+      image: images/education/fce.png
+
+experience:
+  enable: true
+  item:
+    - logo: images/experience/soab.png
+      title: Game developer internship
+      company: Sons of a Bit Entertainment, S.L.
+      duration: February 2019 - April 2019
+
+hackathons:
+  enable: false
+
+certifications:
+  enable: false
+
+leadership:
+  enable: false
