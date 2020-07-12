@@ -40,28 +40,13 @@
   background: rgba(0, 0, 0, 0);
 }
 
-@media(min-width: 1200px) {
-  .imagemargin {
-    width: calc(100% * 1 / 9.001);
-    padding-left: 0px;
-    margin-bottom: 10px;
-  }
+.imagemargin {
+  padding-left: 0px;
+  margin-bottom: 10px;
 }
 
-@media(min-width: 960) {
-  .imagemargin {
-    width: calc(100% * 1 / 6.001);
-    padding-left: 0px;
-    margin-bottom: 10px;
-  }
-}
-
-@media(min-width: 640) {
-  .imagemargin {
-    width: calc(100% * 1 / 6.001);
-    padding-left: 0px;
-    margin-bottom: 10px;
-  }
+.imagemargin > h4 {
+  margin-top: 10px;
 }
 
 figcaption p{
@@ -80,6 +65,7 @@ em{
 img.experience{
   width: 150px;
   height: 180px;
+  padding-top: 20px;
 }
 
 

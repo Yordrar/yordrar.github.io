@@ -148,8 +148,9 @@
           {{ range .Params.tech }}
           <div class="imagemargin">
             <a href="{{.url}}">
-            <img class="contain skills" src="{{.logo}}" alt="{{.name}}" loading="lazy" style="cursor: pointer">
+              <img class="contain skills" src="{{.logo}}" alt="{{.name}}" loading="lazy" style="cursor: pointer">
             </a>
+            <p class="uk-margin-small-top">{{.name}}</p>
           </div>
           {{ end }}
         </div>

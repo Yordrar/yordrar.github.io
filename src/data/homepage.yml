@@ -60,7 +60,7 @@ skill:
 
         I learned it mainly from reading the [documentation](https://docs.python.org/3/) of the language.
 
-        I try to keep up with the latest featuresm such as:
+        I try to keep up with the latest features, such as:
           * Asyncronous programming with coroutines
           * Context managers
           * Decorators
@@ -69,16 +69,40 @@ skill:
           * Assignment expressions
     - title: DirectX 11
       logo: images/skills/directx.png
-      description: Details coming soon
+      description: | 
+        I'm a beginner with DirectX and HLSL, for the moment I know how to load meshes and render them with basic shading and configure different stages of the pipeline.
+
+        However, right now I'm spending all my time on learning advanced features of DirectX and HLSL.
     - title: Unity
       logo: images/skills/unity.png
-      description: Details coming soon
+      description: | 
+        Because I used Unity both at university for a project and in my internship, I have pretty good knowledge of it.
+
+        I know how to create, modify and unpack prefabs from code, create custom editor windows to aid in the development, draw custom gizmos in the editor and work in both 2D and 3D.
+        I also know more advanced features such as shader programming (both in HLSL and shader graph) and creating custom render pipelines and render passes.
+
+        To keep up to date with Unity, I read the changelog of every release and to keep learning I often go through the resources available in [Unity learn](https://learn.unity.com/).
     - title: Qt 5
       logo: images/skills/qt.png
-      description: Details coming soon
+      description: |
+        I learned Qt at the same time I made my Bachelor's thesis with it.
+        I know how to design interfaces with Qt Creator and access that design from C++ code.
+
+        In my Bachelor's thesis, I used a variety of widgets, such as text fields, combo boxes, lines, buttons, labels, tab widgets, radio selectors, etc.
+        I also used validators to reject invalid input from text fields.
+
+        I also know how to configure a Qt project, add external libraries and the usage of qmake.
+
+        To learn the basics of Qt and qmake I read the book Mastering Qt 5.
+        From that I check the [official documentation](https://doc.qt.io/qt-5/reference-overview.html) while developing if I need to learn about something new or check usage and behavior.
     - title: Git
       logo: images/skills/git.png
-      description: Details coming soon
+      description: | 
+        I always use Git for all my projects to log the changes of the code.
+
+        I know how to commit, branch, merge, solve conflicts, rebase, checkout, squash and cherry pick.ç
+
+        I also use Github as a portfolio and cloud backup of my projects.
 
 education:
   enable: true
