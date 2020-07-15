@@ -70,9 +70,9 @@ skill:
     - title: DirectX 11
       logo: images/skills/directx.png
       description: | 
-        I'm a beginner with DirectX and HLSL, for the moment I know how to load meshes and render them with basic shading and configure different stages of the pipeline.
+        Although I'm a beginner with DirectX and HLSL, I know how to load meshes, render them with different types of shading and configure the stages of the pipeline.
 
-        However, right now I'm spending all my time on learning advanced features of DirectX and HLSL.
+        Right now I'm learning more advanced DirectX 11 features and implementing a lot of shader with different illumination algorithms.
     - title: Unity
       logo: images/skills/unity.png
       description: | 
@@ -100,7 +100,7 @@ skill:
       description: | 
         I always use Git for all my projects to log the changes of the code.
 
-        I know how to commit, branch, merge, solve conflicts, rebase, checkout, squash and cherry pick.ç
+        I know how to commit, branch, merge, solve conflicts, rebase, checkout, squash and cherry pick.
 
         I also use Github as a portfolio and cloud backup of my projects.
 
