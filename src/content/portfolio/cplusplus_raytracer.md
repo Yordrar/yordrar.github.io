@@ -39,6 +39,8 @@ It supports many rendering features, such as:
 - Quaternions for representing orientations and rotations
 - Blender-like orbital camera
 
+It was initally developed following the great book series "Ray Tracing in One Weekend" by Peter Shirley, although it quickly diverged from it when I added features not present in the books, such as shadow rays, mesh loading and management, PBR materials and image-based lightning with sphere mapping.
+
 ## Images
 
 !["cornell_box"](../../images/portfolio/raytracer/raytracer.png "Cornell box")

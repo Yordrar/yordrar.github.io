@@ -6,6 +6,8 @@ books_read:
       value: cplusplus
     - label: Computation
       value: computation
+    - label: DirectX 11
+      value: directx11
     - label: Game Engines
       value: engines
     - label: Graphics
@@ -30,7 +32,7 @@ books_read:
       description: | 
         This book not also explains the features of the C++ langauge, but also explains its design decisions and enumerates many good practices.
 
-        It is not the best book to learn C++ from scratch, but it is the best reference to have at hand or to learn about the more obscure features fo the language deeply.
+        It is not the best book to learn C++ from scratch, but it is the best reference to have at hand or to learn about the more obscure features of the language deeply.
     - title: The C Programming Language
       edition: 2nd
       author: Brian W. Kernighan, Dennis M. Ritchie
@@ -128,3 +130,75 @@ books_read:
 
         It starts from the very basics (real numbers and the complex plane) and from there builds the quaternions and their relation to rotations and rotation matrices.
         Beautifully explained, it is also a great reference to have at hand to check from time to time.
+    - title: Fundamentals of Computer Graphics
+      edition: 4th
+      author: Steve Marschner, Peter Shirley
+      image: images/books_read/fundamentals_cg.jpg
+      tags: ["math", "graphics"]
+      description: | 
+        The best book to learn the basics of graphics and the math behind them.
+
+        It starts from the very basics and progressively touches almos every single aspect of computer graphics, such as ray tracing, data structures, the rendering pipeline, shading models, sampling methods and curves.
+
+        Not only that, it is also explained wonderfully, with a lot of diagrams and images that help visualize all of the concepts.
+    - title: Real Time Rendering
+      edition: 4th
+      author: Tomas Akenine-Möller, Eric Haines, Naty Hoffman, Angelo Pesce, Michał Iwanicki, and Sébastien Hillaire
+      image: images/books_read/real_time_rendering.jpg
+      tags: ["math", "graphics"]
+      description: | 
+        A thorough compendium of real time rendering concepts.
+
+        Although this book starts from the very basics of graphics, I think it is enjoyed best with a bit of prior knowledge.
+
+        It is a great complement to Fundamentals of Computer Graphics, as it explains concepts that weren't covered in that book, such as physically based shading, volumetric rendering, and pipeline optimization.
+
+        Overall, a great and well explained book of several advanced and very useful rendering techniques.
+    - title: Introduction to 3D Game Programming with DirectX 11
+      edition: 0
+      author: Frank Luna
+      image: images/books_read/intro_3d_game_programming_directx11.jpg
+      tags: ["math", "graphics", "directx11"]
+      description: | 
+        A great introduction to graphics and the Direct3D 11 API.
+
+        This book provides an introduction to both graphics programming and the Direct3D 11 API.
+
+        Even if you already know about graphics this is a great introduction book to Direct3D alone.
+        It bulds incrementally from first steps with Direct3D to using the full power of Direct3D to take advantage of the rendering pipeline with advanced features such as blending, stenciling, and tesellation.
+    - title: Ray Tracing in One Weekend
+      edition: 3.0.0
+      author: Peter Shirley
+      image: images/books_read/raytracing_one_weekend.PNG
+      tags: ["graphics"]
+      description: | 
+        The best hands-on intro to graphics and ray tracing there is.
+
+        This is the best book if you want to get your feet wet in the field of graphics.
+        It is the ideal book if you don't know anything about graphics and want to get a quick introduction to not only rendering but also ray tracing.
+
+        Although it is an introduction, this book walks you through the development of a simple ray tracer capable of rendering great images.
+        Definitely recommended to any novice out there.
+    - title: Ray Tracing The Next Week
+      edition: 3.0.0
+      author: Peter Shirley
+      image: images/books_read/raytracing_next_week.PNG
+      tags: ["graphics"]
+      description: | 
+        The follow up book to Ray Tracing in One Weekend.
+
+        If you liked Ray Tracing in One Weekend, this books continues where it left off, adding advanced features to the ray tracer developed in the previous book.
+
+        Very recommended if you liked the first one and want to continue learning about graphics.
+    - title: Ray Tracing The Rest of Your Life
+      edition: 3.0.0
+      author: Peter Shirley
+      image: images/books_read/raytracing_rest_life.PNG
+      tags: ["graphics"]
+      description: | 
+        The third and final installment of the ray tracing in one weekend series.
+
+        This book assumes you read and followed the previous two and introduces you to the serious math needed to step into the field of computer graphics.
+        It also finishes the renderer developed in the previous books adding importance sampling via pdf sampling.
+
+        If you want to learn the math behind the code of the previous two books or want to become a professional computer graphics programmer, this book is a must.
