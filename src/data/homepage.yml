@@ -67,6 +67,18 @@ skill:
           * Metaclasses
           * Generators
           * Assignment expressions
+    - title: Lua
+      logo: images/skills/lua.png
+      description: | 
+        I like this language for its easy integration as a secondary scripting language and for its simplicity, making it easy to learn and master.
+
+        I have mainly used it with PICO-8. However, I have read the official reference and I know about the latest features of it, such as:
+          * To-be-closed variables
+          * Garbage collection modes
+          * Bitwise operators
+          * Metamethods
+          * Ephemeron tables
+          * Coroutines
     - title: DirectX 11
       logo: images/skills/directx.png
       description: | 
