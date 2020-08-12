@@ -92,6 +92,7 @@ skill:
 
         I know how to create, modify and unpack prefabs from code, create custom editor windows to aid in the development, draw custom gizmos in the editor and work in both 2D and 3D.
         I also know more advanced features such as shader programming (both in HLSL and shader graph) and creating custom render pipelines and render passes.
+        I also have experience developing game UI with the NGUI library.
 
         To keep up to date with Unity, I read the changelog of every release and to keep learning I often go through the resources available in [Unity learn](https://learn.unity.com/).
     - title: Qt 5
