@@ -6,10 +6,21 @@
     <description>Recent content in directx on Personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://yordrar.github.io/categories/directx/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Marching Cubes</title>
+      <link>http://yordrar.github.io/portfolio/marching_cubes_demo/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://yordrar.github.io/portfolio/marching_cubes_demo/</guid>
+      <description>This is a simple demo showcasing the Marching Cubes algorithm.
+It is a really neat algorithm for procedurally generating meshes, specially terrain. I plan to eventually make a simple terrain editor based on this algorithm generating the mesh via a compute shader.
+The GUI was made with the Dear ImGui library, and it allows you to change the grid resolution and cube size, as well as toggling interpolation and changing the mesh color.</description>
+    </item>
     
     <item>
       <title>Direct3D model viewer</title>

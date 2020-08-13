@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://yordrar.github.io/blog/</loc>
-    <lastmod>2020-07-11T00:00:00+00:00</lastmod>
+    <loc>http://yordrar.github.io/categories/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordrar.github.io/categories/directx/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordrar.github.io/categories/graphics/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordrar.github.io/portfolio/marching_cubes_demo/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://yordrar.github.io/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordrar.github.io/portfolio/</loc>
+    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yordrar.github.io/blog/</loc>
     <lastmod>2020-07-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,27 +43,7 @@
   </url>
   
   <url>
-    <loc>http://yordrar.github.io/categories/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yordrar.github.io/portfolio/d3d_model_viewer/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/categories/directx/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/categories/graphics/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/portfolio/</loc>
     <lastmod>2020-07-10T00:00:00+00:00</lastmod>
   </url>
   
