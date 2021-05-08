@@ -1,55 +1,137 @@
-# Base configuration
-baseURL = "http://yordrar.github.io/"
+baseURL = "https://yordrar.github.io/"
 languageCode = "en-us"
-title = "Personal webpage"
-theme = "developer-portfolio"
-publishdir = "../"
+theme = "sada"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
-
-
-# Navigation
-[menu]
-  [[menu.main]]
-  name = "About me"
-  URL = "about"
-  weight = 1
-  [[menu.main]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 2
-  [[menu.main]]
-  name = "Books I've read"
-  URL = "books_read"
-  weight = 3
-#  [[menu.main]]
-#  name = "Blog"
-#  URL = "blog"
-#  weight = 4
-
-
-
-# Parameters
 [params]
-home = "Home" # What you want the homepage to show up as in the menu bar
-# Meta data
-description = "Personal webpage of Juan Antonio Hernández Cánovas, graphics programmer and computer science graduate"
-author = "Juan Antonio Hernández Cánovas"
+    name = ""
+    title = "Juan Antonio Hernández Cánovas"
+    author = "Darshan Baral"
+    description = "Game Programmer at Codemasters"
+    copyright = ""
+    theme = "light" # `dark` or `light`
+    useResources = false
 
-# This contains the contact information for the footer
-[params.footer]
-email = "juanantoniohernandezcanovas@gmail.com"
-address = "Murcia, Spain"
-googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf4yS1fiBYw0RmqvEOJsSJ9Y&key=AIzaSyDsLZ506HKFSRiLejqKp4-pgOKrmT11uLk"
+    # Profile section
+    [params.profile]
+        name = "Juan Antonio Hernández Cánovas"
+        photo = "images/profile.png"
 
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
 
+        [[params.social.list]]
+        icon = "fab fa-github"
+        url = "https://github.com/Yordrar"
+        title = "GitHub"
 
-# Plugins
-[params.plugins]
-  # CSS Plugins
-  [[params.plugins.css]]
-  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
-  # JS Plugins
-  [[params.plugins.js]]
-  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+        [[params.social.list]]
+        icon = "fab fa-linkedin-in"
+        url = "https://www.linkedin.com/in/ja-hernandezc/"
+        title = "LinkedIn"
+		
+		[[params.social.list]]
+        icon = "fab fa-twitter"
+        url = "https://twitter.com/Yordrar"
+        title = "Twitter"
+		
+		[[params.social.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:juanantoniohernandezcanovas@gmail.com"
+        title = "Mail"		
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "BSc in Computer Science"
+        college = "University of Murcia, Spain"
+        dates = "2016 - 2020"
+        thesis_title = "Design and Implementation of a rendering system using advanced pathtracing techniques"
+        thesis_link = "https://github.com/Yordrar/thesis-raytracer"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Upper-Intermediate (B2)"
+				
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Native"
+
+    # Interests section
+    [params.hobbies]
+        title = "Interests"
+
+        [[params.hobbies.list]]
+        interest = "Sci-fi / Fantasy books"
+		
+		[[params.hobbies.list]]
+        interest = "Videogames"
+
+        [[params.hobbies.list]]
+        interest = "Graphics programming"
+
+        [[params.hobbies.list]]
+        interest = "Game engine architecture"
+
+    [params.aboutme]
+        description = "I am a programmer interested in graphics and gamedev. I began learning about graphics when I developed my bachelor's thesis, which is a software pathtracer. I am now working at Codemasters as a gameplay programmer."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Gameplay Programmer"
+        dates = "Nov 2020 - *Present*"
+		link = "https://www.codemasters.com/"
+        company = "Codemasters"
+        details = ""
+
+        [[params.jobs.list]]
+        position = "Intern Programmer"
+        dates = "Feb 2019 - Apr 2019"
+		link = "https://sonsofabit.com/"
+        company = "Sons of a Bit"
+        details = "I worked as a programmer in the development of a mobile game using the Unity game engine and C#."
+
+    # Projects section
+    [params.projects]
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "C++ Pathtracer"
+        url = "https://github.com/Yordrar/thesis-raytracer"
+        description = "A software pathtracer I developed for my bachelor's thesis as a way to begin learning about graphics programming. Because of this, it is coded in pure C++ with no graphics API. This allowed me to learn deeply about graphics and raytracing topics, such as BVHs, importance sampling and PBR."
+		
+		[[params.projects.list]]
+        title = "Model Viewer"
+        url = "https://github.com/Yordrar/d3d_model_viewer"
+        description = "A model viewer I am developing to learn DirectX 11."
+        
+        [[params.projects.list]]
+        title = "Marching Cubes demo"
+        url = "https://github.com/Yordrar/marching-cubes-demo"
+        description = "A simple demo I developed in C++ and DirectX 11 showing the marching cubes algorithm."
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Skill 1, Skill 2"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Skill 3"
+        skillrating = 90
+		
+        [[params.skills.list]]
+        skill = "Skill 4"
+        skillrating = 80

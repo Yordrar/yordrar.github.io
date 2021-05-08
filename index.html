@@ -1,599 +1,181 @@
 <!DOCTYPE html>
-<style>
-    html {
-        height: 100vh;
-    }
-    body {
-        min-height: 100vh;
-        display: grid;
-        grid-template-rows: 1fr auto;
-    }
-    .footer {
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-</style>
-<html lang="en-us"><head>
-  <meta charset="utf-8">
-  <title>Personal webpage</title>
+<html lang="en" class="light"><head>
+	<meta name="generator" content="Hugo 0.83.1" />
+  <title>Juan Antonio Hernández Cánovas</title>
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="description" content="Game Programmer at Codemasters" />
+  <meta name="author" content="Darshan Baral" />
 
-  <meta name="description" property="og:description" content="Personal webpage of Juan Antonio Hernández Cánovas, graphics programmer and computer science graduate">
-  <meta name="image" property="og:image" content="/">
-  <meta name="author" content="Juan Antonio Hernández Cánovas">
-  <meta name="generator" content="Hugo 0.73.0" />
-
-  <!-- plugins -->
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
-  
-
-  <!-- Main Stylesheet -->
-  
-  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
-  
-  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+    <link rel="stylesheet" href="/css/main.min.css" />
 
 
-
-  <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css"
+  />
 </head>
-<body class="">
-    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
-        <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav uk-visible@s">
-                
-                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
-                        href="http://yordrar.github.io/"> Home </a></li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <li><a style="font-size: 18px; text-transform: none" href="/about">About me</a></li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <li><a style="font-size: 18px; text-transform: none" href="/books_read">Books I&#39;ve read</a></li>
-                
-                
-            </ul>
+<body class="max-w-screen-md mx-auto prose dark:prose-dark px-2 pb-4 bg-gray-100 dark:bg-dark1 duration-250"><header class="flex flex-row justify-between items-center my-2">
+  <i></i>
+  <i
+    class="toggle-theme cursor-pointer fas fa-moon text-gray-600 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
+    onclick="toggleTheme(this)"
+  ></i>
+</header>
 
-            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
-
-        </div>
-    </nav>
+<script>
+  const toggleTheme = (el) => {
+    const html = document.querySelector("html");
+    if (el.classList.contains("fa-moon")) {
+      el.classList.remove("fa-moon");
+      el.classList.add("fa-sun");
+      html.classList.add("dark");
+    } else {
+      el.classList.remove("fa-sun");
+      el.classList.add("fa-moon");
+      html.classList.remove("dark");
+    }
+  };
+</script>
+<main class="flex flex-row flex-wrap">
+<section
+  class="w-full sm:w-2/5 bg-gray-200 dark:bg-dark2 p-3 rounded shadow flex flex-col justify-between"
+>
+  <div>
+    <h1 class="text-center">Juan Antonio Hernández Cánovas</h1>
+    <div class="flex justify-center w-full">
+  <div class="w-4/5">
+    <img
+      class="my-0 rounded-full"
+      src="/images/profile.jpg"
+      alt="Darshan Baral"
+    />
+  </div>
 </div>
 
-<div id="sidenav" uk-offcanvas="overlay: true">
-    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
-
-        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            
-            <li class="uk-active"><a style="font-size: 18px" href="http://yordrar.github.io/"> Home </a>
-            </li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li><a style="font-size: 18px" href="/about">About me</a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li><a style="font-size: 18px" href="/books_read">Books I&#39;ve read</a></li>
-            
-            
-        </ul>
-
-    </div>
+    <div class="flex mb-1 mt-2 justify-center flex-wrap">
+  
+  <a href="https://github.com/Yordrar">
+    <i class="fab fa-github text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
+  <a href="https://www.linkedin.com/in/ja-hernandezc/">
+    <i class="fab fa-linkedin-in text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
+  <a href="https://twitter.com/Yordrar">
+    <i class="fab fa-twitter text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
+  <a href="mailto:juanantoniohernandezcanovas@gmail.com">
+    <i class="fas fa-envelope text-2xl py-1 px-2 m-1 rounded hover:bg-gray-300 dark:hover:bg-dark3"></i>
+  </a>
+  
 </div>
 
+    <div class="d-flex flex-column mt-2">
+  <h3>Game Programmer at Codemasters</h3>
+  <p class="mb-2 ml-1">I am a programmer interested in videogames, gamedev and graphics programming.</p>
+</div>
 
-<!-- Hexagon Stylesheet -->
+    <h3>Languages</h3>
 
-<link rel="stylesheet" href="/css/hexagon.min.css">
+<p class="ml-1">English: Upper-Intermediate (B2)</p>
 
-<!-- Index -->
-
-<link rel="stylesheet" href="/css/index.min.css">
-
-<section>
-    <div class="uk-container uk-margin-large-top uk-margin-large-bottom">
-
-        <h1 class="uk-heading-medium">Juan Antonio Hernández Cánovas</h1>
-        
-        <p class="uk-text-lead">Graphics programmer and computer science graduate</p>
-        
-        
-    </div>
+<p class="ml-1">Spanish: Native</p>
 
 
+    <h3>Hobbies</h3>
+
+<p class="ml-1">Sci-fi / Fantasy books</p>
+
+<p class="ml-1">Videogames</p>
+
+<p class="ml-1">Graphics programming</p>
+
+<p class="ml-1">Game engine architecture</p>
+
+
+  </div><footer class="text-center text-sm pt-2 border-t border-gray-500 mt-6">
+  <p></p>
+  <p>
+    <a href="https://github.com/darshanbaral/sada">sada</a> by
+    <a href="https://www.darshanbaral.com">darshan</a>
+  </p>
+</footer>
 </section>
 
-<div class="uk-text-center uk-margin-large-bottom uk-margin-large-top">
-    <ul id="social-media" class="icons">
-        
-        
-        
-        <li><a href="https://github.com/yordrar"> <img
-                    class="contain" src="images/social/github.svg" alt="GitHub" loading="lazy"> </a>Github</li>
-        
-        
-        <li><a href="https://www.linkedin.com/in/ja-hernandezc">
-            <img class="contain" src="images/social/linkedin.svg" alt="LinkedIn" loading="lazy"> </a>LinkedIn</li>
-        
-        
-        <li><a href="https://twitter.com/yordrar" > <img
-                    class="contain" src="images/social/twitter.svg" alt="Twitter" loading="lazy"></a>Twitter</li>
-        
-        
-        <li><a href="mailto:juanantoniohernandezcanovas@gmail.com" > <img
-                    class="contain" src="images/social/gmail.svg" alt="Gmail" loading="lazy"></a>Gmail</li>
-        
-        
-        
-        
-        
-    </ul>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="C_plusplus" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">C&#43;&#43;</h2>
-        </div>
-        <p><p>I mainly know C++11, although I&rsquo;m learning newer versions of the language (C++14 and above).</p>
-<p>I&rsquo;ve read the C++ creator&rsquo;s book (The C++ Programming Language, 4th Ed. by Bjarne Stroustrup) to learn the design decisions behind the language and its features.
-I&rsquo;ve applied this knowledge to the project I made for my bachelor&rsquo;s thesis, which is a ray tracing renderer. You can find it in my <a href="/portfolio">portfolio</a>.</p>
-<p>I&rsquo;ve also read the Gang of Four book (Design Patterns, Elements of Reusable Object-Oriented Software) and thus I know how to imlpement common software engineering patterns in this language.</p>
-<p>Among other features, I know:</p>
-<ul>
-<li>The STL library and containers</li>
-<li>Generics</li>
-<li>Template metaprogramming</li>
-<li>Threads and futures</li>
-<li>Lambda functions</li>
-</ul>
-</p>
-    </div>
-</div>
-
-<div id="C_sharp" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">C#</h2>
-        </div>
-        <p><p>I have used this language mainly with Unity.
-Apart from using it at university in a project I also used it in my internship as a game developer as we used Unity to develop games.</p>
-<p>My main source of knowledge has been the great documentation available at <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/">Microsoft&rsquo;s site</a>.</p>
-<p>I know advanced features such as:</p>
-<ul>
-<li>Properties</li>
-<li>Events</li>
-<li>Delegate methods</li>
-<li>Coroutines</li>
-<li>Attributes</li>
-<li>Lambda expressions</li>
-<li>Generics</li>
-<li>Linq</li>
-</ul>
-</p>
-    </div>
-</div>
-
-<div id="Python" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Python</h2>
-        </div>
-        <p><p>I use this language mainly for scripting, as it is very easy and quick to write small and useful utilities.</p>
-<p>I learned it mainly from reading the <a href="https://docs.python.org/3/">documentation</a> of the language.</p>
-<p>I try to keep up with the latest features, such as:</p>
-<ul>
-<li>Asyncronous programming with coroutines</li>
-<li>Context managers</li>
-<li>Decorators</li>
-<li>Metaclasses</li>
-<li>Generators</li>
-<li>Assignment expressions</li>
-</ul>
-</p>
-    </div>
-</div>
-
-<div id="Lua" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Lua</h2>
-        </div>
-        <p><p>I like this language for its easy integration as a secondary scripting language and for its simplicity, making it easy to learn and master.</p>
-<p>I have mainly used it with PICO-8. However, I have read the official reference and I know about the latest features of it, such as:</p>
-<ul>
-<li>To-be-closed variables</li>
-<li>Garbage collection modes</li>
-<li>Bitwise operators</li>
-<li>Metamethods</li>
-<li>Ephemeron tables</li>
-<li>Coroutines</li>
-</ul>
-</p>
-    </div>
-</div>
-
-<div id="DirectX_11" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">DirectX 11</h2>
-        </div>
-        <p><p>Although I&rsquo;m a beginner with DirectX and HLSL, I know how to load meshes, render them with different types of shading and configure the stages of the pipeline.</p>
-<p>Right now I&rsquo;m learning more advanced DirectX 11 features and implementing a lot of shader with different illumination algorithms.</p>
-</p>
-    </div>
-</div>
-
-<div id="Unity" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Unity</h2>
-        </div>
-        <p><p>Because I used Unity both at university for a project and in my internship, I have pretty good knowledge of it.</p>
-<p>I know how to create, modify and unpack prefabs from code, create custom editor windows to aid in the development, draw custom gizmos in the editor and work in both 2D and 3D.
-I also know more advanced features such as shader programming (both in HLSL and shader graph) and creating custom render pipelines and render passes.
-I also have experience developing game UI with the NGUI library.</p>
-<p>To keep up to date with Unity, I read the changelog of every release and to keep learning I often go through the resources available in <a href="https://learn.unity.com/">Unity learn</a>.</p>
-</p>
-    </div>
-</div>
-
-<div id="Qt_5" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Qt 5</h2>
-        </div>
-        <p><p>I learned Qt at the same time I made my Bachelor&rsquo;s thesis with it.
-I know how to design interfaces with Qt Creator and access that design from C++ code.</p>
-<p>In my Bachelor&rsquo;s thesis, I used a variety of widgets, such as text fields, combo boxes, lines, buttons, labels, tab widgets, radio selectors, etc.
-I also used validators to reject invalid input from text fields.</p>
-<p>I also know how to configure a Qt project, add external libraries and the usage of qmake.</p>
-<p>To learn the basics of Qt and qmake I read the book Mastering Qt 5.
-From that I check the <a href="https://doc.qt.io/qt-5/reference-overview.html">official documentation</a> while developing if I need to learn about something new or check usage and behavior.</p>
-</p>
-    </div>
-</div>
-
-<div id="Git" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body">
-        <button class="uk-modal-close-default" type="button" uk-close></button>
-        <div class="uk-modal-header">
-            <h2 class="uk-modal-title">Git</h2>
-        </div>
-        <p><p>I always use Git for all my projects to log the changes of the code.</p>
-<p>I know how to commit, branch, merge, solve conflicts, rebase, checkout, squash and cherry pick.</p>
-<p>I also use Github as a portfolio and cloud backup of my projects.</p>
-</p>
-    </div>
-</div>
-
-
-<section class="uk-margin-large-top uk-margin-large-bottom">
-    <div class="uk-container">
-        <h1 class="uk-heading-line uk-text-center uk-heading-medium uk-margin-remove"><span>Skills</span></h1>
-
-        <p class="uk-text-center uk-text-lead uk-margin-small-top uk-margin-medium-bottom"><i>Click the images below to find out more</i></p>
-        <div class="uk-child-width-expand@l uk-child-width-1-6@m uk-child-width-1-6@s uk-child-width-1-3 uk-text-center uk-flex-center"
-            uk-grid>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/cplusplus.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #C_plusplus">
-                <h4>C&#43;&#43;</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/csharp.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #C_sharp">
-                <h4>C#</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/python.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #Python">
-                <h4>Python</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/lua.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #Lua">
-                <h4>Lua</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/directx.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #DirectX_11">
-                <h4>DirectX 11</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/unity.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #Unity">
-                <h4>Unity</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/qt.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #Qt_5">
-                <h4>Qt 5</h4>
-            </div>
-            
-            <div class="imagemargin">
-                <img class="contain skills" src="images/skills/git.png" alt="" loading="lazy" style="cursor: pointer"
-                    uk-toggle="target: #Git">
-                <h4>Git</h4>
-            </div>
-            
-        </div>
-
-    </div>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="uk-margin-large-bottom">
-
-    <div class="uk-container">
-        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Experience</span></h1>
-
-
-
-        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-between" uk-grid
-            style="padding-left: 20px; padding-right: 20px">
-
-            
-            <div>
-                <div class="uk-card uk-card-default uk-height-large">
-                    <div class="uk-card-media-top">
-                        <img class="contain experience" src="images/experience/soab.png" alt="" style="padding: 20px" loading="lazy">
-                    </div>
-                    <div class="uk-card-body" style="padding: initial">
-                        <div style="height: 5em">
-                            <h3 class="uk-card-title uk-heading-small">Game developer internship</h3>
-                        </div>
-                        <p style="height: 4em">Sons of a Bit Entertainment, S.L.</p>
-                        <p>February 2019 - April 2019</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-
-
-
-
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="uk-margin-xlarge-bottom">
-    <div class="uk-container">
-
-        <h1 class="uk-heading-line uk-heading-medium uk-text-center uk-margin-medium-bottom"><span>Education</span></h1>
-
-
-        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
-            style="padding-left: 20px; padding-right: 20px">
-
-            
-            <div>
-                <div class="uk-card uk-card-default uk-height-max-large">
-                    <div class="uk-card-media-top">
-                        <img class="contain experience" src="images/education/umu.png" alt="" style="padding: 20px" loading="lazy">
-                    </div>
-                    <div class="uk-card-body" style="padding-top: 0">
-                        <div style="height: 5em">
-                            <h3 class="uk-card-title">University of Murcia</h3>
-                        </div>
-                        <p style="height: 4em">Bachelor&#39;s degree in Computer Science</p>
-                        <p>2016 - 2020</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <div class="uk-card uk-card-default uk-height-max-large">
-                    <div class="uk-card-media-top">
-                        <img class="contain experience" src="images/education/fce.png" alt="" style="padding: 20px" loading="lazy">
-                    </div>
-                    <div class="uk-card-body" style="padding-top: 0">
-                        <div style="height: 5em">
-                            <h3 class="uk-card-title">Cambridge ESOL Examinations</h3>
-                        </div>
-                        <p style="height: 4em">First Certificate in English (FCE)</p>
-                        <p>2015</p>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-<footer class="footer">
-  <div class="uk-container">
-
-
-    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
-      <div class="uk-margin-small-bottom">
-        <h5 class="uk-margin-small-bottom">Email</h5>
-        <a href="mailto:juanantoniohernandezcanovas@gmail.com">juanantoniohernandezcanovas@gmail.com</a>
-
-      </div>
-      <div>
-        <h5 class="uk-margin-small-bottom">Address</h5>
-                  <div uk-lightbox>
-                    <a href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf4yS1fiBYw0RmqvEOJsSJ9Y&amp;key=AIzaSyDsLZ506HKFSRiLejqKp4-pgOKrmT11uLk" data-caption="Murcia, Spain"
-                      data-type="iframe">Murcia, Spain</a>
-      </div>
-      </div>
-
-    </div>
-
-
-
-
+<section class="w-full sm:w-3/5 px-3">
+  <div class="mb-8">
+  <h2 class="mt-8 sm:mt-0">
+    <i class="fas fa-briefcase"></i>
+    Experiences
+  </h2>
 
   
-  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
-    Juan Antonio Hernández Cánovas
-  </div>
-  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
-    Hugo theme developed by <a href="https://github.com/samrobbins85"> Sam Robbins</a>
-    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
-  width: 1.2em;" alt="Creative Commons">
-    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
-  width: 1.2em;" alt="CC-BY">
-    2020
-  </div>
-</footer>
+  <h3 class="mb-1">Gameplay Programmer</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="https://www.codemasters.com/">Codemasters</a>
+     &middot; Nov 2020 - <em>Present</em>
+  </p>
+  <p class="ml-2 mb-0">I am working as a programmer in various parts of the development cycle.</p>
+  
+  <h3 class="mb-1">Intern Programmer</h3>
+  <p class="ml-1 mb-0">
+    <a class="font-semibold" href="https://sonsofabit.com/">Sons of a Bit</a>
+     &middot; Feb 2019 - Apr 2019
+  </p>
+  <p class="ml-2 mb-0">I worked as a programmer in the development of a mobile game using the Unity game engine and C#.</p>
+  
+</div>
 
+  <div class="mb-8">
+<h2 class="mt-4">
+    <i class="fas fa-project-diagram"></i> Projects
+</h2>
 
-<!-- JS Plugins -->
+<h3 class="mb-1"><a class="text-warning" href="https://github.com/Yordrar/thesis-raytracer">C&#43;&#43; Pathtracer</a></h3>
+<p class="mb-0 ml-1">A software pathtracer I developed for my bachelor&rsquo;s thesis as a way to begin learning about graphics programming. Because of this, it is coded in pure C++ with no graphics API. This allowed me to learn deeply about graphics and raytracing topics, such as BVHs, importance sampling and PBR.</p>
 
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+<h3 class="mb-1"><a class="text-warning" href="https://github.com/Yordrar/d3d_model_viewer">Model Viewer</a></h3>
+<p class="mb-0 ml-1">A model viewer I am developing to learn DirectX 11.</p>
 
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+<h3 class="mb-1"><a class="text-warning" href="https://github.com/Yordrar/marching-cubes-demo">Marching Cubes demo</a></h3>
+<p class="mb-0 ml-1">A simple demo I developed in C++ and DirectX 11 showing the marching cubes algorithm.</p>
 
-</body>
+</div>
+  <div class="mb-8">
+  <h2>
+  <i class="fas fa-graduation-cap"></i>
+  Education
+</h2>
+
+<h3>Computer Science</h3>
+  <p class="ml-1 mb-0"><span class="font-semibold">University of Murcia</span> &middot; 2016 - 2020</p>
+  
+  <p class="ml-2 mb-0">
+    Thesis:
+    <a class="text-warning" href="https://github.com/Yordrar/thesis-raytracer"
+      ><i>Diseño e implementación de un sistema de renderizado mediante técnicas avanzadas de Path tracing</i></a
+    >
+  </p>
+  
+
+<h3>First Certificate in English (FCE)</h3>
+  <p class="ml-1 mb-0"><span class="font-semibold">Cambridge ESOL Examinations</span> &middot; 2015</p>
+  
+
+</div>
+
+</section>
+</main>
+  </body>
 </html>

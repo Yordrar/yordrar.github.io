@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>http://yordrar.github.io/blog/</loc>
-    <lastmod>2020-07-11T00:00:00+00:00</lastmod>
+    <loc>https://yordrar.github.io/</loc>
   </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/</loc>
-    <lastmod>2020-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/blog/test/</loc>
-    <lastmod>2020-07-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/categories/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/portfolio/d3d_model_viewer/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/categories/directx/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/categories/graphics/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/portfolio/</loc>
-    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/portfolio/cplusplus_raytracer/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/categories/raytracing/</loc>
-    <lastmod>2020-07-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/about/</loc>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/books_read/</loc>
-  </url>
-  
-  <url>
-    <loc>http://yordrar.github.io/tags/</loc>
-  </url>
-  
 </urlset>
