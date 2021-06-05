@@ -108,30 +108,14 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         [[params.projects.list]]
         title = "C++ Pathtracer"
         url = "https://github.com/Yordrar/thesis-raytracer"
-        description = "A software pathtracer I developed for my bachelor's thesis as a way to begin learning about graphics programming. Because of this, it is coded in pure C++ with no graphics API. This allowed me to learn deeply about graphics and raytracing topics, such as BVHs, importance sampling and PBR."
+        description = "A software pathtracer I developed for my bachelor's thesis as a way to begin learning about graphics programming. Because of this, it is coded in pure C++ with no graphics API. This allowed me to learn deeply about graphics and raytracing topics, such as BVHs, importance sampling and Monte Carlo."
 		
 		[[params.projects.list]]
         title = "Model Viewer"
         url = "https://github.com/Yordrar/d3d_model_viewer"
-        description = "A model viewer I am developing to learn DirectX 11."
+        description = "A simple model viewer I developed primarily to learn DirectX 11 and PBR."
         
         [[params.projects.list]]
         title = "Marching Cubes demo"
         url = "https://github.com/Yordrar/marching-cubes-demo"
-        description = "A simple demo I developed in C++ and DirectX 11 showing the marching cubes algorithm."
-
-    # Skills section
-    [params.skills]
-        title = "Skills"
-
-        [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
-                
-        [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
-		
-        [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        description = "A simple demo I developed in C++ and DirectX 11 to play around with the marching cubes algorithm."
